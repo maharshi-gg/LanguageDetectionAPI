@@ -4,10 +4,11 @@ RestAPI developed in FastAPI, language model sourced from HuggingFace, predicts 
 Current implementation uses FastAPI and Uvicorn to deploy the api locally to Localhost.
 
 ### Instructions
-1. Clone the repo
-1. Instantiate `Venv`
-1. Install requirements using `pip install -r ./requirements.txt`
-1. Run the api on Localhost using the command: `python ./main.py`
+1. Clone the repo.
+1. Instantiate `Venv`.
+1. Install requirements using `pip install -r ./requirements.txt`.
+1. Run the api on Localhost using the command: `python ./main.py`.
+1. Hit 127.0.0.1:8080/docs to access the Swagger documentation.
 
 ### Documentation
 Swagger documentation can be seen by hitting the endpoint 127.0.0.1:8080/docs as follows:
